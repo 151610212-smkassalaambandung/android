@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertianistigosah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.istigosah.id.istigosah.pengertianistigosah"
+    android:background="@drawable/mesjid">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="istighotsah استغاثة berasal dari “al-ghouts”الغوث yang berarti pertolongan.
+Dalam tata bahasa Arab kalimat yang mengikuti pola (wazan) “istaf’ala” استفعل
+atau “istif’al” menunjukkan arti pemintaan atau pemohonan. Maka istighotsah
+berarti meminta pertolongan. Seperti kata ghufron غفران yang berarti ampunan
+ketika diikutkan pola istif’al menjadi istighfar استغفار yang berarti memohon
+ampunan.
+    Jadi istighotsah berarti “thalabul ghouts” طلب الغوث atau meminta pertolongan.
+Para ulama membedakan antara istghotsah dengan “istianah” استعانة, meskipun secara
+kebahasaan makna keduanya kurang lebih sama. Karena isti’anah juga pola istif’al
+dari kata “al-aun” العون yang berarti “thalabul aun” طلب العون yang juga berarti
+meminta pertolongan.
+
+    Istighotsah adalah meminta pertolongan ketika keadaan sukar dan sulit.
+Sedangkan Isti’anah maknanya meminta pertolongan dengan arti yang lebih
+luas dan umum."/>
+
+</ScrollView>

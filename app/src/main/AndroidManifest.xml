@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.istigosah.assalaam.istigosah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pengertianistigosah" />
+        <activity android:name=".bentukbentuk" />
+        <activity android:name=".doa" />
+        <activity android:name=".homee" />
+        <activity android:name=".menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tatacara" />
+        <activity android:name=".tujuan" />
+        <activity android:name=".webview" />
+        <activity android:name=".profil" />
+        <activity android:name=".perintah" />
+        <activity android:name=".dilarang" />
+        <activity android:name=".boleh" />
+        <activity android:name=".ringan" />
+        <activity android:name=".besar"></activity>
+    </application>
+
+</manifest>
