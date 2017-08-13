@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alfatihah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.istigosah.assalaam.istigosah.alfatihah"
+    android:background="@drawable/blue">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ha"
+        android:textSize="18dp"
+        android:text="SURAT AL-FATIHAH DAN TERJEMAHAN
+"
+        android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ  (١"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="1. dengan menyebut nama Allah yang Maha Pemurah lagi Maha Penyayang."
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ  (٢"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="2. segala puji bagi Allah, Tuhan semesta alam.
+"
+            android:gravity="center"/>
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ha"
+        android:textSize="18dp"
+        android:text="لرَّحْمَنِ الرَّحِيمِ  (٣"
+        android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="3. Maha Pemurah lagi Maha Penyayang."
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="مَالِكِ يَوْمِ الدِّينِ  (٤"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="4. yang menguasai di hari Pembalasan."
+        android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="
+إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ  (٥"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="5. hanya Engkaulah yang Kami sembah, dan hanya kepada Engkaulah Kami meminta pertolongan.
+"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ  (٦"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="6. Tunjukilah Kami jalan yang lurus.
+"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ  (٧"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="7. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat.
+"/>
+    </LinearLayout>
+</ScrollView>

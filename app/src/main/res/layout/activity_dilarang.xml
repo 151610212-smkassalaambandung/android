@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+      <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_dilarang"
@@ -9,13 +9,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.istigosah.assalaam.istigosah.dilarang"
-    android:background="@drawable/mesjid">
+    android:background="@drawable/ba">
 
     <TextView
         android:text=" istighostah yang dilarang.
 Yaitu istighostah kepada selain Allah yang tidak mempunyai sifat hayyun ( hidup ) hadir dan qadir ( mampu )."
         android:layout_width="wrap_content"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/ha"
         android:textSize="18dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"

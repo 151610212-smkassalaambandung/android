@@ -9,34 +9,37 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.istigosah.assalaam.istigosah.bentukbentuk"
-    android:background="@drawable/mesjid">
+    android:background="@drawable/lamp">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:weightSum="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" />
         <Button
             android:id="@+id/activity_perintah"
             android:text="Diperintahkan"
-            android:background="@drawable/button"
+            android:background="@drawable/buton"
             android:textSize="18dp"
             android:layout_width="fill_parent"
-            android:layout_height="76dp" />
+            android:layout_height="65dp" />
         <Button
             android:id="@+id/activity_boleh"
             android:text="Diperbolehkan"
-            android:background="@drawable/button"
+            android:background="@drawable/buton"
             android:textSize="18dp"
             android:layout_width="fill_parent"
-            android:layout_height="76dp" />
+            android:layout_height="65dp" />
         <Button
             android:id="@+id/activity_dilarang"
             android:text="Dilarang"
-            android:background="@drawable/button"
+            android:background="@drawable/buton"
             android:textSize="18dp"
             android:layout_width="fill_parent"
-            android:layout_height="76dp" />
+            android:layout_height="65dp" />
 
 
 

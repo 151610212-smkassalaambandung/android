@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.istigosah.assalaam.istigosah.perintah"
-    android:background="@drawable/mesjid">
+    android:background="@drawable/ba">
 
     <TextView
         android:text="Istigosah yang di perintahkan
@@ -17,7 +17,7 @@ yaitu istighostah kepada Allah ta'ala, istrighostah yang di perbolehkan
 yaitu istighostah ( meminta bantuan ) kepada seseorang yang   mempunyai sifat
 "
         android:layout_width="wrap_content"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/ha"
         android:textSize="18dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

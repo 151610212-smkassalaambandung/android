@@ -14,13 +14,6 @@
         <activity android:name=".bentukbentuk" />
         <activity android:name=".doa" />
         <activity android:name=".homee" />
-        <activity android:name=".menu">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".tatacara" />
         <activity android:name=".tujuan" />
         <activity android:name=".webview" />
@@ -29,7 +22,16 @@
         <activity android:name=".dilarang" />
         <activity android:name=".boleh" />
         <activity android:name=".ringan" />
-        <activity android:name=".besar"></activity>
+        <activity android:name=".besar" />
+        <activity android:name=".menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".alfatihah" />
+        <activity android:name=".suratyasin"></activity>
     </application>
 
 </manifest>

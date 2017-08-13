@@ -9,17 +9,36 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.istigosah.assalaam.istigosah.tujuan"
-    android:background="@drawable/mesjid">
+    android:background="@drawable/ba">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ha"
+        android:textSize="18dp"
+        android:text="Tujuan dan Alasan-alasannya diadakannya Istighosah :"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-
+        android:textColor="@color/ha"
         android:textSize="18dp"
-        android:text=" Tujuan dan Alasan-alasannya diadakannya Istighosah
-1.      Meminta pertolongan
-2.      Menyambung silaturahmi antar umat islam
-3.      Menghapus dosa
-"/>
+        android:text="1.Meminta pertolongan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="2.Menyambung silaturahmi antar umat islam"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ha"
+            android:textSize="18dp"
+            android:text="3.Menghapus dosa"/>
+    </LinearLayout>
 </ScrollView>
