@@ -7,22 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.app.AlertDialog;
+
+import android.view.Menu;
 
 import com.istigosah.assalaam.istigosah.R;
 import com.istigosah.assalaam.istigosah.homee;
 
-public class menu extends AppCompatActivity implements View.OnClickListener {
-    Button keluar;
+public class menu extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        keluar=(Button) findViewById(R.id.exit);
-        keluar.setOnClickListener(this);
 
         Button menu =(Button) findViewById(R.id.menu);
         menu.setOnClickListener(new View.OnClickListener(){
@@ -51,31 +49,21 @@ public class menu extends AppCompatActivity implements View.OnClickListener {
             }
         });
     }
-    public void onClick(View clicked){
-        switch(clicked.getId()){
-            case R.id.exit:
-                exit();
-                break;
-        }
-    }
-    private void exit(){
-        AlertDialog.Builder builder=new AlertDialog.Builder(this);
-        builder.setMessage("Apakah kamu benar-benar ingin keluar?")
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Apa kalian ingin Exit?")
                 .setCancelable(false)
-                .setPositiveButton("ya", new
-                        DialogInterface.OnClickListener(){
-                            public void onClick(DialogInterface dialog, int id){
-                                menu.this.finish();
-                            }
-                        })
-                .setNegativeButton("Tidak", new
-                        DialogInterface.OnClickListener(){
-                            @Override
-                            public void onClick(DialogInterface dialog, int argl){
-                                dialog.cancel();
-                            }
-                        }).show();
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        menu.this.finish();
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
-        }
 
-
+    @Override public boolean onCreateOptionsMenu(Menu menu) {
+// Inflate the menu; this adds items to the action bar if it is present. getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+}

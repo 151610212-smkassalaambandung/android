@@ -12,7 +12,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".pengertianistigosah" />
         <activity android:name=".bentukbentuk" />
-        <activity android:name=".doa" />
         <activity android:name=".homee" />
         <activity android:name=".tatacara" />
         <activity android:name=".tujuan" />
@@ -31,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".alfatihah" />
-        <activity android:name=".suratyasin"></activity>
+        <activity android:name=".suratyasin" />
+        <activity android:name=".doa"></activity>
     </application>
 
 </manifest>
